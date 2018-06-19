@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hello-worldapi:
+    image: hello-worldapi
+    build:
+      context: .\Hello-WorldAPI
+      dockerfile: Dockerfile
